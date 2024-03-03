@@ -1,0 +1,83 @@
+:root {
+    --bg-color: #0C2D57;
+    --text-color: #FC6736;
+    --shadow-color: rgba(0, 0, 0, 1);
+}
+body {
+    background-color: var(--bg-color);
+}
+.form {
+    background-color: var(--bg-color);
+    box-shadow: 0 0 50px 5px var(--shadow-color);
+    width: 50%;
+    border-radius: 20px;
+}
+h1,.btn {
+    color: var(--text-color);
+}
+.btn {
+    border: 1px solid var(--text-color);
+    transition: all .5s;
+}
+.btn:hover {
+    background-color: var(--text-color);
+    color: #fff;
+}
+.form-control {
+    background-color: transparent;
+    caret-color: #fff;
+    color: #fff;
+}
+.form-control::placeholder {
+    color: gray;
+}
+.form-control:focus {
+    background-color: transparent;
+    border: 1px solid #80bdff;
+    box-shadow: none;
+    color: #fff;
+}
+
+.log {
+    text-decoration: none;
+}
+p a {
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+header {
+    box-shadow: 0 10px 50px 5px var(--shadow-color);
+}
+.logout {
+    border: 2px solid #ffc107;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.logout:hover {
+    background-color: #ffc107;
+    color: gray;
+}
+.hero {
+    background-color: var(--bg-color);
+    box-shadow: 0 0 50px 5px var(--shadow-color);
+    width: 70%;
+    height: 10rem;
+    margin: 15% auto 0;
+    line-height: 150px;
+    border-radius: 0 0 20px 20px;
+}
+.hero p {
+    font-size: 3rem;
+    color: var(--text-color);
+}
+#success {
+    color: green;
+}
+#note,#error {
+    color: red;
+}

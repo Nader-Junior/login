@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Book mark</title>
+</head>
+<body>
+    <div class="form text-center m-auto mt-5 p-5">
+        <h1 class="mb-3">Smart Login System</h1>
+        <input type="text" name="name" id="name" class="form-control mb-3 " placeholder="Enter your name" autocomplete="off" required>
+        <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Enter your email" autocomplete="off" required>
+        <input type="password" name="pass" id="pass" class="form-control mb-3" placeholder="Enter password" autocomplete="off" required>
+        <div id="success" class="d-none mb-3 fs-5">success</div>
+        <div id="error" class="d-none mb-3 fs-5">All inputs is required</div>
+        <div id="note" class="d-none mb-3 fs-5">email already exists</div>
+        <button type="submit" class="btn w-100 mb-3" id="sign-up" onclick="create()">signUp</button>
+        <p class="text-white">Don’t have an account? <a href="../index.html" target="_self">Sign in</a></p>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
